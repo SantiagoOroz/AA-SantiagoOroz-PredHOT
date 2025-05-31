@@ -1,0 +1,6 @@
+{
+  "nombre_del_proyecto_hotelero": "analisis_ocupacion_ushuaia",
+  "autor_del_modelo": "Santiago Oroz",
+  "ciudad_de_analisis": ["Ushuaia", "Río Grande"],
+  "targets": ["TOP","TOH"]
+}
