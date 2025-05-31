@@ -29,7 +29,7 @@ La plantilla de este proyecto está diseñada para organizar el flujo de trabajo
 
 La plantilla de este proyecto está diseñada para organizar el flujo de trabajo de Machine Learning de manera clara y eficiente.
 
-.
+`````
 ├── data/                  # Almacena datos del proyecto
 │   ├── raw/               # Datos originales (no modificados) de entrada (ej. meteorología, transporte, TOH/TOP histórico)
 │   └── processed/         # Datos limpios y preprocesados, listos para el modelado
@@ -45,3 +45,4 @@ La plantilla de este proyecto está diseñada para organizar el flujo de trabajo
 ├── LICENSE.md             # Información sobre la licencia del proyecto
 ├── requirements.txt       # Lista de dependencias de Python necesarias para ejecutar el proyecto
 └── README.md              # Descripción general del proyecto y su estructura
+`````
