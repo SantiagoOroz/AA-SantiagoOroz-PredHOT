@@ -1,5 +1,9 @@
 # Predicción de la Tasa de Ocupación Hotelera y de Plazas en Tierra del Fuego
 
+<a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
+    <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
+</a>
+
 Este repositorio contiene la estructura base para un proyecto de Machine Learning centrado en la predicción de la Tasa de Ocupación Hotelera (TOH%) y la Tasa de Ocupación de Plazas (TOP%) mensual en las ciudades de Ushuaia y Río Grande, Tierra del Fuego. El objetivo es utilizar técnicas avanzadas de aprendizaje automático e integrar datos de clima, transporte terrestre/aéreo y variables temporales.
 
 **Autor del Modelo:** {{cookiecutter.autor_del_modelo}}
