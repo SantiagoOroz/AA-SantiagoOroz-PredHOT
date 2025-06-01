@@ -6,10 +6,6 @@
 
 Este repositorio contiene la estructura base para un proyecto de Machine Learning centrado en la predicción de la Tasa de Ocupación Hotelera (TOH%) y la Tasa de Ocupación de Plazas (TOP%) mensual en las ciudades de Ushuaia y Río Grande, Tierra del Fuego. El objetivo es utilizar técnicas avanzadas de aprendizaje automático e integrar datos de clima, transporte terrestre/aéreo y variables temporales.
 
-**Autor del Modelo:** {{cookiecutter.autor_del_modelo}}
-**Ciudad de Análisis Predeterminada:** {{cookiecutter.ciudad_de_analisis}}
-**Incluye Datos Climáticos:** {{cookiecutter.incluir_datos_clima}}
-
 ## Descripción del Proyecto
 
 El turismo es un pilar fundamental en la economía de Tierra del Fuego, contribuyendo con el 25% del PIB provincial. La ocupación hotelera presenta fluctuaciones significativas debido a factores como el clima extremo, la estacionalidad turística y eventos imprevistos. Este proyecto busca superar las limitaciones de los métodos tradicionales (ej. promedios históricos) mediante el desarrollo de un modelo de regresión no lineal que prediga la TOH% y TOP% con precisión.
