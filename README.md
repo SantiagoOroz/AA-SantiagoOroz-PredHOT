@@ -12,6 +12,31 @@ El turismo es un pilar fundamental en la economía de Tierra del Fuego, contribu
 
 El modelo propuesto es XGBoost Regressor, reconocido por su capacidad para manejar relaciones no lineales y datos tabulares, incluso con valores faltantes. Esto lo diferencia de los análisis estadísticos tradicionales que a menudo asumen relaciones lineales.
 
+
+## Estructura del Repositorio
+
+La plantilla de este proyecto está diseñada para organizar el flujo de trabajo de Machine Learning de manera clara y eficiente.
+
+La plantilla de este proyecto está diseñada para organizar el flujo de trabajo de Machine Learning de manera clara y eficiente.
+
+`````
+├── data/                  # Almacena datos del proyecto
+│   ├── raw/               # Datos originales (no modificados) de entrada (ej. meteorología, transporte, TOH/TOP histórico)
+│   └── processed/         # Datos limpios y preprocesados, listos para el modelado
+├── notebooks/             # Cuadernos Jupyter para exploración de datos, prototipado y análisis interactivo
+├── models/                # Modelos de Machine Learning entrenados y serializados
+├── reports/               # Informes, presentaciones, gráficos y visualizaciones de resultados
+├── src/                   # Código fuente de Python organizado en módulos
+│   ├── init.py        # Hace que 'src' sea un paquete Python
+│   ├── data_processing.py # Scripts para unificación y preprocesamiento de datos
+│   └── model_training.py  # Scripts para el entrenamiento y evaluación del modelo (XGBoost)
+├── tests/                 # Pruebas unitarias para asegurar la calidad del código
+├── .gitignore             # Archivo para ignorar directorios y archivos específicos en Git (ej. datos grandes, modelos)
+├── LICENSE.md             # Información sobre la licencia del proyecto
+├── requirements.txt       # Lista de dependencias de Python necesarias para ejecutar el proyecto
+└── README.md              # Descripción general del proyecto y su estructura
+`````
+
 ## Definición de Variables Objetivo
 
 * **TOH% (Tasa de Ocupación Hotelera):** Porcentaje de habitaciones ocupadas en los hoteles durante un mes específico. Por ejemplo, si un hotel tiene 100 habitaciones y 80 están ocupadas, el TOH% es 80%.
