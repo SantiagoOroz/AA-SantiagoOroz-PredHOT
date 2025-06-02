@@ -1,1 +1,1 @@
-![Imagen preprocesamiento en knime](images/AAknime.png)
+![Imagen preprocesamiento en knime](AAknime.png)
