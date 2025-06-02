@@ -23,11 +23,13 @@ La plantilla de este proyecto está diseñada para organizar el flujo de trabajo
 ├── data/                  # Almacena datos del proyecto
 │   ├── raw/               # Datos originales (no modificados) de entrada (ej. meteorología, transporte, TOH/TOP histórico)
 │   └── processed/         # Datos limpios y preprocesados, listos para el modelado
+├── docs/                  # Documentación adicional (si aplica)
+│   └── images/            # Imágenes para READMEs u otra documentación
 ├── notebooks/             # Cuadernos Jupyter para exploración de datos, prototipado y análisis interactivo
 ├── models/                # Modelos de Machine Learning entrenados y serializados
 ├── reports/               # Informes, presentaciones, gráficos y visualizaciones de resultados
 ├── src/                   # Código fuente de Python organizado en módulos
-│   ├── init.py        # Hace que 'src' sea un paquete Python
+│   ├── init.py            # Hace que 'src' sea un paquete Python
 │   ├── data_processing.py # Scripts para unificación y preprocesamiento de datos
 │   └── model_training.py  # Scripts para el entrenamiento y evaluación del modelo (XGBoost)
 ├── tests/                 # Pruebas unitarias para asegurar la calidad del código
