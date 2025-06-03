@@ -49,27 +49,3 @@ La plantilla de este proyecto está diseñada para organizar el flujo de trabajo
 1.  **Integración de Datos:** Unificación de datasets de meteorología (temperatura, precipitaciones, días con nieve), transporte terrestre (entrada de personas por San Sebastián) y aéreo (desembarco en aeropuertos de Ushuaia y Río Grande), junto con TOH% y TOP% históricos.
 2.  **Preprocesamiento:** Normalización de variables numéricas (StandardScaler) y codificación de variables temporales (mes como variable cíclica).
 3.  **Entrenamiento y Validación:** Split temporal (Entrenamiento: 2009-2019, Validación: 2020-2021, Test: 2022). Métricas: RMSE, MAE, $R^2$ ajustado. Optimización de hiperparámetros mediante búsqueda grid.
-
-## Estructura del Repositorio
-
-La plantilla de este proyecto está diseñada para organizar el flujo de trabajo de Machine Learning de manera clara y eficiente.
-
-La plantilla de este proyecto está diseñada para organizar el flujo de trabajo de Machine Learning de manera clara y eficiente.
-
-`````
-├── data/                  # Almacena datos del proyecto
-│   ├── raw/               # Datos originales (no modificados) de entrada (ej. meteorología, transporte, TOH/TOP histórico)
-│   └── processed/         # Datos limpios y preprocesados, listos para el modelado
-├── notebooks/             # Cuadernos Jupyter para exploración de datos, prototipado y análisis interactivo
-├── models/                # Modelos de Machine Learning entrenados y serializados
-├── reports/               # Informes, presentaciones, gráficos y visualizaciones de resultados
-├── src/                   # Código fuente de Python organizado en módulos
-│   ├── init.py        # Hace que 'src' sea un paquete Python
-│   ├── data_processing.py # Scripts para unificación y preprocesamiento de datos
-│   └── model_training.py  # Scripts para el entrenamiento y evaluación del modelo (XGBoost)
-├── tests/                 # Pruebas unitarias para asegurar la calidad del código
-├── .gitignore             # Archivo para ignorar directorios y archivos específicos en Git (ej. datos grandes, modelos)
-├── LICENSE.md             # Información sobre la licencia del proyecto
-├── requirements.txt       # Lista de dependencias de Python necesarias para ejecutar el proyecto
-└── README.md              # Descripción general del proyecto y su estructura
-`````
