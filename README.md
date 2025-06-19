@@ -52,9 +52,3 @@ La plantilla de este proyecto está diseñada para organizar el flujo de trabajo
 
 * **TOH% (Tasa de Ocupación Hotelera):** Porcentaje de habitaciones ocupadas en los hoteles durante un mes específico. Por ejemplo, si un hotel tiene 100 habitaciones y 80 están ocupadas, el TOH% es 80%.
 * **TOP% (Tasa de Ocupación de Plazas):** Porcentaje de camas o plazas ocupadas en los hoteles durante un mes. Considera la capacidad total de personas que pueden alojarse, no solo las habitaciones. Por ejemplo, si un hotel tiene 200 plazas y 150 están ocupadas, el TOP% es 75%.
-
-## Pipeline de Aprendizaje Automático (Propuesto)
-
-1.  **Integración de Datos:** Unificación de datasets de meteorología (temperatura, precipitaciones, días con nieve), transporte terrestre (entrada de personas por San Sebastián) y aéreo (desembarco en aeropuertos de Ushuaia y Río Grande), junto con TOH% y TOP% históricos.
-2.  **Preprocesamiento:** Normalización de variables numéricas (StandardScaler) y codificación de variables temporales (mes como variable cíclica).
-3.  **Entrenamiento y Validación:** Split temporal (Entrenamiento: 2009-2019, Validación: 2020-2021, Test: 2022). Métricas: RMSE, MAE, $R^2$ ajustado. Optimización de hiperparámetros mediante búsqueda grid.
